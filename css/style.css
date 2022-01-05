@@ -1,12 +1,58 @@
-.yeseva{
-    font-family: 'Yeseva One', cursive;
+body{
+    margin: 0;
 }
-.poppins{
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+p, h1, a{
     font-family: 'Poppins', sans-serif;
 }
-.lobster{
-    font-family: 'Lobster', cursive;
+p{
+    color: rgb(123,123,123);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
-.manrope{
-    font-family: 'Manrope', sans-serif; 
+.scroll{
+    margin-top: 50px;
+    font-family: 'poppins', sans-serif;
+}
+.scroll span{
+    color: rgb(123,123,123);
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: rgb(255,151,115);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.txt-content{
+    padding: 30px;
+    margin: 30px;
+}
+.img-content{
+    width: 45%;
+    margin: 40px;
+}
+.img-content > img{
+    width: 100%;
+}
+.txt-content h1{
+    font-size: 50px;
+    color: rgb(77, 75, 75);
+    font-family: 'Yeseva One', cursive;
+    border-left: 5px solid rgb(255,151,115);
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.txt-content h1 span{
+    color: rgb(255,165,0);
 }
