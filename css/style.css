@@ -1,30 +1,35 @@
+/*body margin reset*/
 body{
     margin: 0;
 }
+
+/*flex container*/
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+/*half width setting*/
 .half-width{
     width: 50%;
 }
+/*setting font family*/
 p, h1, h2, a, h3{
     font-family: 'Poppins', sans-serif;
-}
-p{
-    text-align: justify;
-}
+} 
+/*h2 setting*/
 h2{
     font-size: 40px;
     text-align: center;
     font-weight: 900;
     letter-spacing: 1px;
 }
+/*setting the color of span in h2*/
 h2 span{
     color: rgb(255,165,0);
 }
+/*p tag setting*/
 p{
     color: rgb(123,123,123);
     font-size: 16px;
@@ -39,6 +44,7 @@ p{
 .scroll span{
     color: rgb(123,123,123);
 }
+/*btn css for all button*/
 .btn{
     text-decoration: none;
     padding: 10px 40px;
